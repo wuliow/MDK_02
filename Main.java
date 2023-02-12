@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        Book book1 = new Book("как выучить java за пять минут");
-        Book book2 = new Book("учебное пособие: как не получить двойку");
+        Book book1 = new Book("Python для начинающих");
+        Book book2 = new Book("Основы C#");
 
-        Magazine magazine1 = new Magazine("как сохранить нервы");
-        Magazine magazine2 = new Magazine("все умные слова программистов - просто, четко, ясно");
+        Magazine magazine1 = new Magazine("Мерч Энтони");
+        Magazine magazine2 = new Magazine("Мерч Ноуки");
 
         Printable[] printables = {book1, book2, magazine1, magazine2};
 
